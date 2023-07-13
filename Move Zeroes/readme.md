@@ -1,1 +1,1 @@
-
+This problem has been solved using two pointer algorithm. We set two pointers i and j. And based on the question set the condition. if two pointer i is zero and pointer j is not zero we swap the the element of both pointer else pointer i is not equal to zero we increment i pointer. Since we are using for loop for j pointer it is incremented itself after every iteration.
