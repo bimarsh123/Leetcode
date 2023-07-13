@@ -1,1 +1,2 @@
-
+The question can be solved with a simple logic approach
+If there exist 9 in the list we have to make 9 to 10 i.e. if we have [9,9,9] our output should be [1,0,0,0] not [9,9,10]. So when we add one to 9 the last digits become 0 and the carry 1 goes forward. We iterate through the list and if 9 exits we make it 0 and else we simply add 1 to the list. Also, note that we are looping in reverse since we need to add a number at the end of the list. If the digit is 9 we make it 0 else we add one on the last digit and return the digits. Also, if there are multiple 9's in the list we make the second element of the 9 0 and the first 1 by assigning it manually immediately after the loop ends.
